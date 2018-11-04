@@ -1,30 +1,80 @@
 INFO:root:Successfully created bot! My Player ID is 0.
-INFO:root:Found initial hotspot, value is 1995
+INFO:root:Found initial hotspot, value is 1613
 INFO:root:=============== TURN 001 ================
+INFO:root:###### Finding hotspot ( 1 )
+INFO:root:###### Hotspot found Position(14, 28) -- value is 1613
 INFO:root:=============== TURN 002 ================
+INFO:root:###### Finding hotspot ( 2 )
+INFO:root:###### Hotspot found Position(14, 28) -- value is 1613
 INFO:root:=============== TURN 003 ================
+INFO:root:###### Finding hotspot ( 3 )
+INFO:root:###### Hotspot found Position(14, 28) -- value is 1613
 INFO:root:=============== TURN 004 ================
+INFO:root:###### Finding hotspot ( 4 )
+INFO:root:###### Hotspot found Position(13, 28) -- value is 1768
 INFO:root:=============== TURN 005 ================
+INFO:root:###### Finding hotspot ( 5 )
+INFO:root:###### Hotspot found Position(13, 28) -- value is 1768
 INFO:root:=============== TURN 006 ================
+INFO:root:###### Finding hotspot ( 6 )
+INFO:root:###### Hotspot found Position(13, 28) -- value is 1752
 INFO:root:=============== TURN 007 ================
+INFO:root:###### Finding hotspot ( 7 )
+INFO:root:###### Hotspot found Position(13, 28) -- value is 1752
 INFO:root:=============== TURN 008 ================
+INFO:root:###### Finding hotspot ( 8 )
+INFO:root:###### Hotspot found Position(13, 28) -- value is 1710
 INFO:root:=============== TURN 009 ================
+INFO:root:###### Finding hotspot ( 9 )
+INFO:root:###### Hotspot found Position(13, 28) -- value is 1679
 INFO:root:=============== TURN 010 ================
+INFO:root:###### Finding hotspot ( 10 )
+INFO:root:###### Hotspot found Position(13, 28) -- value is 1614
 INFO:root:=============== TURN 011 ================
+INFO:root:###### Finding hotspot ( 11 )
+INFO:root:###### Hotspot found Position(13, 29) -- value is 2312
 INFO:root:=============== TURN 012 ================
+INFO:root:###### Finding hotspot ( 12 )
+INFO:root:###### Hotspot found Position(13, 29) -- value is 2289
 INFO:root:=============== TURN 013 ================
+INFO:root:###### Finding hotspot ( 13 )
+INFO:root:###### Hotspot found Position(13, 29) -- value is 2139
 INFO:root:=============== TURN 014 ================
+INFO:root:###### Finding hotspot ( 14 )
+INFO:root:###### Hotspot found Position(13, 29) -- value is 2039
 INFO:root:=============== TURN 015 ================
+INFO:root:###### Finding hotspot ( 15 )
+INFO:root:###### Hotspot found Position(13, 29) -- value is 1865
 INFO:root:=============== TURN 016 ================
+INFO:root:###### Finding hotspot ( 16 )
+INFO:root:###### Hotspot found Position(13, 29) -- value is 1735
 INFO:root:=============== TURN 017 ================
+INFO:root:###### Finding hotspot ( 17 )
+INFO:root:###### Hotspot found Position(13, 29) -- value is 1637
 INFO:root:=============== TURN 018 ================
+INFO:root:###### Finding hotspot ( 18 )
+INFO:root:###### Hotspot found Position(12, 28) -- value is 1770
 INFO:root:=============== TURN 019 ================
+INFO:root:###### Finding hotspot ( 19 )
+INFO:root:###### Hotspot found Position(12, 28) -- value is 1681
 INFO:root:=============== TURN 020 ================
+INFO:root:###### Finding hotspot ( 20 )
+INFO:root:###### Hotspot found Position(12, 28) -- value is 1614
 INFO:root:=============== TURN 021 ================
+INFO:root:###### Finding hotspot ( 21 )
+INFO:root:###### Hotspot found Position(12, 29) -- value is 2009
 INFO:root:=============== TURN 022 ================
+INFO:root:###### Finding hotspot ( 22 )
+INFO:root:###### Hotspot found Position(12, 29) -- value is 1984
 INFO:root:=============== TURN 023 ================
+INFO:root:###### Finding hotspot ( 23 )
+INFO:root:###### Hotspot found Position(12, 29) -- value is 1869
 INFO:root:=============== TURN 024 ================
+INFO:root:###### Finding hotspot ( 24 )
+INFO:root:###### Hotspot found Position(12, 29) -- value is 1783
 INFO:root:=============== TURN 025 ================
+INFO:root:###### Finding hotspot ( 25 )
+INFO:root:###### Hotspot found Position(12, 29) -- value is 1729
 INFO:root:=============== TURN 026 ================
 INFO:root:=============== TURN 027 ================
 INFO:root:=============== TURN 028 ================
@@ -42,8 +92,6 @@ INFO:root:=============== TURN 039 ================
 INFO:root:=============== TURN 040 ================
 INFO:root:=============== TURN 041 ================
 INFO:root:=============== TURN 042 ================
-INFO:root:###### Finding hotspot ( 1 )
-INFO:root:###### Hotspot found Position(7, 20) -- value is 1701
 INFO:root:=============== TURN 043 ================
 INFO:root:=============== TURN 044 ================
 INFO:root:=============== TURN 045 ================
@@ -85,8 +133,6 @@ INFO:root:=============== TURN 080 ================
 INFO:root:=============== TURN 081 ================
 INFO:root:=============== TURN 082 ================
 INFO:root:=============== TURN 083 ================
-INFO:root:###### Finding hotspot ( 2 )
-INFO:root:###### Hotspot found Position(10, 17) -- value is 1925
 INFO:root:=============== TURN 084 ================
 INFO:root:=============== TURN 085 ================
 INFO:root:=============== TURN 086 ================
@@ -124,8 +170,6 @@ INFO:root:=============== TURN 117 ================
 INFO:root:=============== TURN 118 ================
 INFO:root:=============== TURN 119 ================
 INFO:root:=============== TURN 120 ================
-INFO:root:###### Finding hotspot ( 3 )
-INFO:root:###### Hotspot found Position(12, 17) -- value is 1870
 INFO:root:=============== TURN 121 ================
 INFO:root:=============== TURN 122 ================
 INFO:root:=============== TURN 123 ================
@@ -156,8 +200,6 @@ INFO:root:=============== TURN 147 ================
 INFO:root:=============== TURN 148 ================
 INFO:root:=============== TURN 149 ================
 INFO:root:=============== TURN 150 ================
-INFO:root:###### Finding hotspot ( 4 )
-INFO:root:###### Hotspot found Position(5, 31) -- value is 1654
 INFO:root:=============== TURN 151 ================
 INFO:root:=============== TURN 152 ================
 INFO:root:=============== TURN 153 ================
@@ -217,8 +259,6 @@ INFO:root:=============== TURN 206 ================
 INFO:root:=============== TURN 207 ================
 INFO:root:=============== TURN 208 ================
 INFO:root:=============== TURN 209 ================
-INFO:root:###### Finding hotspot ( 5 )
-INFO:root:###### Hotspot found Position(20, 29) -- value is 1681
 INFO:root:=============== TURN 210 ================
 INFO:root:=============== TURN 211 ================
 INFO:root:=============== TURN 212 ================
@@ -258,8 +298,6 @@ INFO:root:=============== TURN 245 ================
 INFO:root:=============== TURN 246 ================
 INFO:root:=============== TURN 247 ================
 INFO:root:=============== TURN 248 ================
-INFO:root:###### Finding hotspot ( 6 )
-INFO:root:###### Hotspot found Position(15, 15) -- value is 1837
 INFO:root:=============== TURN 249 ================
 INFO:root:=============== TURN 250 ================
 INFO:root:=============== TURN 251 ================
@@ -298,8 +336,6 @@ INFO:root:=============== TURN 283 ================
 INFO:root:=============== TURN 284 ================
 INFO:root:=============== TURN 285 ================
 INFO:root:=============== TURN 286 ================
-INFO:root:###### Finding hotspot ( 7 )
-INFO:root:###### Hotspot found Position(3, 32) -- value is 1684
 INFO:root:=============== TURN 287 ================
 INFO:root:=============== TURN 288 ================
 INFO:root:=============== TURN 289 ================
@@ -361,8 +397,6 @@ INFO:root:=============== TURN 344 ================
 INFO:root:=============== TURN 345 ================
 INFO:root:=============== TURN 346 ================
 INFO:root:=============== TURN 347 ================
-INFO:root:###### Finding hotspot ( 8 )
-INFO:root:###### Hotspot found Position(21, 31) -- value is 1646
 INFO:root:=============== TURN 348 ================
 INFO:root:=============== TURN 349 ================
 INFO:root:=============== TURN 350 ================
@@ -404,8 +438,6 @@ INFO:root:=============== TURN 385 ================
 INFO:root:=============== TURN 386 ================
 INFO:root:=============== TURN 387 ================
 INFO:root:=============== TURN 388 ================
-INFO:root:###### Finding hotspot ( 9 )
-INFO:root:###### Hotspot found Position(22, 32) -- value is 1845
 INFO:root:=============== TURN 389 ================
 INFO:root:=============== TURN 390 ================
 INFO:root:=============== TURN 391 ================
@@ -426,8 +458,6 @@ INFO:root:=============== TURN 405 ================
 INFO:root:=============== TURN 406 ================
 INFO:root:=============== TURN 407 ================
 INFO:root:=============== TURN 408 ================
-INFO:root:###### Finding hotspot ( 10 )
-INFO:root:###### Hotspot found Position(23, 34) -- value is 1713
 INFO:root:=============== TURN 409 ================
 INFO:root:=============== TURN 410 ================
 INFO:root:=============== TURN 411 ================
@@ -445,278 +475,79 @@ INFO:root:=============== TURN 422 ================
 INFO:root:=============== TURN 423 ================
 INFO:root:=============== TURN 424 ================
 INFO:root:=============== TURN 425 ================
-INFO:root:###### Finding hotspot ( 11 )
-INFO:root:###### Hotspot found Position(6, 10) -- value is 1627
 INFO:root:=============== TURN 426 ================
 INFO:root:=============== TURN 427 ================
-INFO:root:ship @ Position(23, 34) running home for end Position(22, 34)
-INFO:root:ship @ Position(25, 32) running home for end Position(24, 32)
-INFO:root:ship @ Position(23, 33) running home for end Position(22, 33)
-INFO:root:ship @ Position(21, 33) running home for end Position(20, 33)
-INFO:root:ship @ Position(21, 26) running home for end Position(20, 26)
-INFO:root:ship @ Position(17, 31) running home for end Position(16, 31)
-INFO:root:ship @ Position(21, 32) running home for end Position(20, 32)
-INFO:root:ship @ Position(20, 31) running home for end Position(19, 31)
-INFO:root:ship @ Position(18, 33) running home for end Position(17, 33)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 27)
 INFO:root:=============== TURN 428 ================
-INFO:root:ship @ Position(22, 34) running home for end Position(21, 34)
-INFO:root:ship @ Position(17, 33) running home for end Position(16, 33)
-INFO:root:ship @ Position(19, 31) running home for end Position(18, 31)
-INFO:root:ship @ Position(24, 32) running home for end Position(23, 32)
-INFO:root:ship @ Position(11, 24) running home for end Position(12, 24)
-INFO:root:ship @ Position(22, 33) running home for end Position(21, 33)
-INFO:root:ship @ Position(20, 33) running home for end Position(19, 33)
-INFO:root:ship @ Position(20, 26) running home for end Position(19, 26)
-INFO:root:ship @ Position(16, 31) running home for end Position(15, 31)
-INFO:root:ship @ Position(20, 32) running home for end Position(19, 32)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 26)
 INFO:root:=============== TURN 429 ================
-INFO:root:ship @ Position(19, 33) running home for end Position(18, 33)
-INFO:root:ship @ Position(21, 34) running home for end Position(20, 34)
-INFO:root:ship @ Position(19, 32) running home for end Position(18, 32)
-INFO:root:ship @ Position(16, 33) running home for end Position(15, 33)
-INFO:root:ship @ Position(18, 31) running home for end Position(17, 31)
-INFO:root:ship @ Position(23, 32) running home for end Position(22, 32)
-INFO:root:ship @ Position(21, 33) running home for end Position(20, 33)
-INFO:root:ship @ Position(15, 31) running home for end Position(14, 31)
-INFO:root:ship @ Position(19, 26) running home for end Position(18, 26)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 25)
 INFO:root:=============== TURN 430 ================
-INFO:root:ship @ Position(20, 34) running home for end Position(19, 34)
-INFO:root:ship @ Position(18, 33) running home for end Position(17, 33)
-INFO:root:ship @ Position(18, 32) running home for end Position(17, 32)
-INFO:root:ship @ Position(15, 33) running home for end Position(14, 33)
-INFO:root:ship @ Position(14, 31) running home for end Position(13, 31)
-INFO:root:ship @ Position(17, 31) running home for end Position(16, 31)
-INFO:root:ship @ Position(11, 24) running home for end Position(12, 24)
-INFO:root:ship @ Position(22, 32) running home for end Position(21, 32)
-INFO:root:ship @ Position(20, 33) running home for end Position(19, 33)
-INFO:root:ship @ Position(18, 26) running home for end Position(17, 26)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
 INFO:root:=============== TURN 431 ================
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(19, 34) running home for end Position(18, 34)
-INFO:root:ship @ Position(17, 32) running home for end Position(16, 32)
-INFO:root:ship @ Position(16, 31) running home for end Position(15, 31)
-INFO:root:ship @ Position(17, 33) running home for end Position(16, 33)
-INFO:root:ship @ Position(21, 32) running home for end Position(20, 32)
-INFO:root:ship @ Position(14, 33) running home for end Position(13, 33)
-INFO:root:ship @ Position(13, 31) running home for end Position(12, 31)
-INFO:root:ship @ Position(19, 33) running home for end Position(18, 33)
-INFO:root:ship @ Position(17, 26) running home for end Position(16, 26)
 INFO:root:=============== TURN 432 ================
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 24)
-INFO:root:ship @ Position(18, 34) running home for end Position(17, 34)
-INFO:root:ship @ Position(16, 32) running home for end Position(15, 32)
-INFO:root:ship @ Position(18, 33) running home for end Position(17, 33)
-INFO:root:ship @ Position(15, 31) running home for end Position(14, 31)
-INFO:root:ship @ Position(16, 33) running home for end Position(15, 33)
-INFO:root:ship @ Position(20, 32) running home for end Position(19, 32)
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(13, 33) running home for end Position(12, 33)
-INFO:root:ship @ Position(12, 31) running home for end Position(12, 30)
-INFO:root:ship @ Position(16, 26) running home for end Position(15, 26)
 INFO:root:=============== TURN 433 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(12, 30) running home for end Position(12, 29)
-INFO:root:ship @ Position(17, 34) running home for end Position(16, 34)
-INFO:root:ship @ Position(19, 32) running home for end Position(18, 32)
-INFO:root:ship @ Position(15, 32) running home for end Position(14, 32)
-INFO:root:ship @ Position(17, 33) running home for end Position(16, 33)
-INFO:root:ship @ Position(14, 31) running home for end Position(13, 31)
-INFO:root:ship @ Position(15, 33) running home for end Position(14, 33)
-INFO:root:ship @ Position(12, 33) running home for end Position(12, 32)
-INFO:root:ship @ Position(15, 26) running home for end Position(14, 26)
 INFO:root:=============== TURN 434 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(12, 24)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 28)
-INFO:root:ship @ Position(16, 34) running home for end Position(15, 34)
-INFO:root:ship @ Position(18, 32) running home for end Position(17, 32)
-INFO:root:ship @ Position(14, 32) running home for end Position(13, 32)
-INFO:root:ship @ Position(13, 31) running home for end Position(12, 31)
-INFO:root:ship @ Position(16, 33) running home for end Position(15, 33)
-INFO:root:ship @ Position(14, 33) running home for end Position(13, 33)
-INFO:root:ship @ Position(12, 32) running home for end Position(12, 32)
-INFO:root:ship @ Position(14, 26) running home for end Position(13, 26)
 INFO:root:=============== TURN 435 ================
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 32) running home for end Position(12, 32)
-INFO:root:ship @ Position(13, 33) running home for end Position(12, 33)
-INFO:root:ship @ Position(17, 32) running home for end Position(16, 32)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 27)
-INFO:root:ship @ Position(15, 34) running home for end Position(14, 34)
-INFO:root:ship @ Position(13, 32) running home for end Position(13, 31)
-INFO:root:ship @ Position(12, 31) running home for end Position(12, 30)
-INFO:root:ship @ Position(15, 33) running home for end Position(14, 33)
-INFO:root:ship @ Position(13, 26) running home for end Position(12, 26)
 INFO:root:=============== TURN 436 ================
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 24)
-INFO:root:ship @ Position(12, 32) running home for end Position(12, 31)
-INFO:root:ship @ Position(12, 33) running home for end Position(12, 33)
-INFO:root:ship @ Position(14, 34) running home for end Position(13, 34)
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(16, 32) running home for end Position(15, 32)
-INFO:root:ship @ Position(14, 33) running home for end Position(13, 33)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(13, 31) running home for end Position(13, 30)
-INFO:root:ship @ Position(12, 30) running home for end Position(12, 29)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
 INFO:root:=============== TURN 437 ================
-INFO:root:ship @ Position(12, 33) running home for end Position(12, 32)
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 25)
-INFO:root:ship @ Position(13, 33) running home for end Position(13, 32)
-INFO:root:ship @ Position(12, 31) running home for end Position(12, 30)
-INFO:root:ship @ Position(13, 30) running home for end Position(13, 29)
-INFO:root:ship @ Position(13, 34) running home for end Position(12, 34)
-INFO:root:ship @ Position(15, 32) running home for end Position(14, 32)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 28)
 INFO:root:=============== TURN 438 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 26)
-INFO:root:ship @ Position(12, 32) running home for end Position(12, 31)
-INFO:root:ship @ Position(13, 32) running home for end Position(13, 31)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 30) running home for end Position(12, 29)
-INFO:root:ship @ Position(13, 29) running home for end Position(13, 28)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 28)
-INFO:root:ship @ Position(12, 34) running home for end Position(12, 33)
-INFO:root:ship @ Position(14, 32) running home for end Position(14, 31)
 INFO:root:=============== TURN 439 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(12, 24)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 27)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(12, 33) running home for end Position(12, 32)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 31) running home for end Position(12, 30)
-INFO:root:ship @ Position(13, 31) running home for end Position(13, 30)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 29)
-INFO:root:ship @ Position(13, 28) running home for end Position(13, 27)
-INFO:root:ship @ Position(14, 31) running home for end Position(14, 30)
 INFO:root:=============== TURN 440 ================
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 28)
-INFO:root:ship @ Position(12, 32) running home for end Position(12, 31)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(12, 30) running home for end Position(12, 30)
-INFO:root:ship @ Position(13, 30) running home for end Position(13, 29)
-INFO:root:ship @ Position(13, 27) running home for end Position(13, 26)
-INFO:root:ship @ Position(14, 30) running home for end Position(14, 29)
 INFO:root:=============== TURN 441 ================
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 24)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(12, 30) running home for end Position(12, 29)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 28)
-INFO:root:ship @ Position(13, 29) running home for end Position(13, 28)
-INFO:root:ship @ Position(12, 31) running home for end Position(12, 31)
-INFO:root:ship @ Position(14, 29) running home for end Position(14, 28)
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(13, 26) running home for end Position(13, 25)
 INFO:root:=============== TURN 442 ================
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 25)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 28)
-INFO:root:ship @ Position(12, 31) running home for end Position(12, 30)
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(13, 25) running home for end Position(13, 25)
-INFO:root:ship @ Position(13, 28) running home for end Position(13, 27)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 29)
-INFO:root:ship @ Position(14, 28) running home for end Position(14, 27)
 INFO:root:=============== TURN 443 ================
-INFO:root:ship @ Position(13, 24) running home for end Position(12, 24)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 26)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 28)
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(13, 25) running home for end Position(13, 25)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 29)
-INFO:root:ship @ Position(14, 27) running home for end Position(14, 26)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 30) running home for end Position(12, 30)
-INFO:root:ship @ Position(12, 23) running home for end Position(12, 23)
-INFO:root:ship @ Position(13, 27) running home for end Position(13, 26)
 INFO:root:=============== TURN 444 ================
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 27)
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(13, 25) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 29)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 30) running home for end Position(12, 30)
-INFO:root:ship @ Position(12, 23) running home for end Position(12, 23)
-INFO:root:ship @ Position(14, 26) running home for end Position(14, 25)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(13, 26) running home for end Position(13, 26)
 INFO:root:=============== TURN 445 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 28)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 30) running home for end Position(12, 30)
-INFO:root:ship @ Position(12, 23) running home for end Position(12, 23)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(13, 26) running home for end Position(13, 25)
-INFO:root:ship @ Position(14, 25) running home for end Position(14, 24)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
 INFO:root:=============== TURN 446 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 30) running home for end Position(12, 29)
-INFO:root:ship @ Position(12, 23) running home for end Position(12, 23)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 28)
-INFO:root:ship @ Position(13, 25) running home for end Position(13, 25)
-INFO:root:ship @ Position(14, 24) running home for end Position(14, 24)
 INFO:root:=============== TURN 447 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 23) running home for end Position(12, 23)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 28)
-INFO:root:ship @ Position(13, 25) running home for end Position(13, 25)
-INFO:root:ship @ Position(14, 24) running home for end Position(14, 24)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 29)
 INFO:root:=============== TURN 448 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 23) running home for end Position(12, 23)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 28)
-INFO:root:ship @ Position(13, 25) running home for end Position(13, 25)
-INFO:root:ship @ Position(14, 24) running home for end Position(14, 24)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 29)
 INFO:root:=============== TURN 449 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 23) running home for end Position(12, 23)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 28)
-INFO:root:ship @ Position(13, 25) running home for end Position(13, 25)
-INFO:root:ship @ Position(14, 24) running home for end Position(14, 24)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 29)
 INFO:root:=============== TURN 450 ================
-INFO:root:ship @ Position(11, 24) running home for end Position(11, 24)
-INFO:root:ship @ Position(12, 25) running home for end Position(12, 25)
-INFO:root:ship @ Position(12, 23) running home for end Position(12, 23)
-INFO:root:ship @ Position(12, 26) running home for end Position(12, 26)
-INFO:root:ship @ Position(12, 27) running home for end Position(12, 27)
-INFO:root:ship @ Position(13, 24) running home for end Position(13, 24)
-INFO:root:ship @ Position(12, 28) running home for end Position(12, 28)
-INFO:root:ship @ Position(13, 25) running home for end Position(13, 25)
-INFO:root:ship @ Position(14, 24) running home for end Position(14, 24)
-INFO:root:ship @ Position(12, 29) running home for end Position(12, 29)
+INFO:root:=============== TURN 451 ================
+INFO:root:=============== TURN 452 ================
+INFO:root:=============== TURN 453 ================
+INFO:root:=============== TURN 454 ================
+INFO:root:=============== TURN 455 ================
+INFO:root:=============== TURN 456 ================
+INFO:root:=============== TURN 457 ================
+INFO:root:=============== TURN 458 ================
+INFO:root:=============== TURN 459 ================
+INFO:root:=============== TURN 460 ================
+INFO:root:=============== TURN 461 ================
+INFO:root:=============== TURN 462 ================
+INFO:root:=============== TURN 463 ================
+INFO:root:=============== TURN 464 ================
+INFO:root:ship @ Position(10, 30) running home for end Position(11, 30)
+INFO:root:ship @ Position(11, 32) running home for end Position(12, 32)
+INFO:root:=============== TURN 465 ================
+INFO:root:ship @ Position(15, 32) running home for end Position(14, 32)
+INFO:root:ship @ Position(11, 30) running home for end Position(12, 30)
+INFO:root:ship @ Position(12, 31) running home for end Position(13, 31)
+INFO:root:ship @ Position(12, 32) running home for end Position(13, 32)
+INFO:root:=============== TURN 466 ================
+INFO:root:ship @ Position(11, 29) running home for end Position(12, 29)
+INFO:root:ship @ Position(14, 32) running home for end Position(14, 31)
+INFO:root:ship @ Position(11, 27) running home for end Position(12, 27)
+INFO:root:ship @ Position(11, 26) running home for end Position(12, 26)
+INFO:root:ship @ Position(13, 31) running home for end Position(14, 31)
+INFO:root:ship @ Position(12, 30) running home for end Position(13, 30)
+INFO:root:=============== TURN 467 ================
+INFO:root:ship @ Position(11, 28) running home for end Position(12, 28)
+INFO:root:ship @ Position(12, 29) running home for end Position(13, 29)
+INFO:root:ship @ Position(12, 27) running home for end Position(13, 27)
+INFO:root:ship @ Position(12, 26) running home for end Position(13, 26)
+INFO:root:=============== TURN 468 ================
+INFO:root:ship @ Position(13, 29) running home for end Position(14, 29)
+INFO:root:ship @ Position(13, 26) running home for end Position(14, 26)
+INFO:root:=============== TURN 469 ================
+INFO:root:ship @ Position(14, 30) running home for end Position(14, 29)
+INFO:root:ship @ Position(14, 29) running home for end Position(14, 28)
+INFO:root:ship @ Position(14, 26) running home for end Position(14, 27)
+INFO:root:=============== TURN 470 ================
+INFO:root:ship @ Position(14, 29) running home for end Position(14, 28)
+INFO:root:ship @ Position(14, 27) running home for end Position(14, 28)
+INFO:root:=============== TURN 471 ================
+INFO:root:ship @ Position(13, 28) running home for end Position(14, 28)
+INFO:root:=============== TURN 472 ================
+INFO:root:=============== TURN 473 ================
+INFO:root:ship @ Position(13, 28) running home for end Position(14, 28)
+INFO:root:=============== TURN 474 ================
+INFO:root:=============== TURN 475 ================
+INFO:root:ship @ Position(13, 28) running home for end Position(14, 28)
