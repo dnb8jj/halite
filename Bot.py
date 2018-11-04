@@ -41,7 +41,7 @@ def get_hotspot(map):
                 if pos_val_2 > hspt_val:
                     hspt_val = pos_val_2
                     hotspot = pos_2
-                if hspt_val > (1600):
+                if hspt_val > (2500):
                     break
             else:
                 continue
@@ -63,6 +63,7 @@ game.ready("speegeeBot")
 logging.info("Successfully created bot! My Player ID is {}.".format(game.my_id))
 return_amount = 850
 turn = 0
+turn_limit = constants.MAX_TURNS
 game_map = game.game_map
 me = game.me
 hotspot = get_hotspot(game_map)
@@ -91,14 +92,14 @@ while True:
     # logging.info("Movement Phase: turn " + str(turn) + " : " + str(turn_limit) + ", the hotspot is " + format(hotspot))
 
     # command ships
-    for ship in me.get_ships():
+    for ship in me.get_ships():         
         move_dir = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
         stay = 0
         if ship.halite_amount > return_amount:
             move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
         elif game_map[ship.position].halite_amount > 50:
             stay = 1
-        elif check_area(ship.position) < 400 and ship.position != hotspot:
+        elif check_area(ship.position) < 1200 and ship.position != hotspot: 
             move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
         else:
             best = 0
@@ -106,18 +107,16 @@ while True:
                 if best < game_map[ship.position.directional_offset(d)].halite_amount:
                     best = game_map[ship.position.directional_offset(d)].halite_amount
                     move_dir = d
-
-        rand = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
-        if constants.MAX_TURNS - turn < 24 and game.me.shipyard.position != ship.position:
-            # if len(game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)) == 1:
-            #    move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
-            # else:
-            move_dir = game_map.naive_navigate(ship, game.me.shipyard.position)
+        rand = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])    
+        if turn_limit - turn < 21 and game.me.shipyard.position != ship.position:
+            if len(game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)) == 1:
+                move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
+            else:
+                move_dir = game_map.naive_navigate(ship, game.me.shipyard.position)
             command_queue.append(ship.move(move_dir))
             game_map[ship.position.directional_offset(move_dir)].mark_unsafe(ship)
-            logging.info("ship @ " + format(ship.position) + " running home for end " + format(
-                ship.position.directional_offset(move_dir)))
-        elif stay == 0 and not game_map[ship.position.directional_offset(move_dir)].is_occupied:
+            logging.info("ship @ " + format(ship.position) + " running home for end " + format(ship.position.directional_offset(move_dir)))
+        elif stay == 0 and not game_map[ship.position.directional_offset(move_dir)].is_occupied:  
             command_queue.append(ship.move(move_dir))
             game_map[ship.position.directional_offset(move_dir)].mark_unsafe(ship)
             # logging.info("ship @ " + format(ship.position) + " moving to " + format(ship.position.directional_offset(move_dir)))
@@ -131,8 +130,7 @@ while True:
             # logging.info("ship @ " + format(ship.position) + "stayed still and collected {}.".format(game_map[ship.position].halite_amount / 4))
 
     # spawn ships from shipyard
-    if not game_map[
-        game.me.shipyard.position].is_occupied and me.halite_amount > 999 and turn / constants.MAX_TURNS < .4:
+    if not game_map[game.me.shipyard.position].is_occupied and me.halite_amount > 999 and turn < 150:
         command_queue.append(game.me.shipyard.spawn())
 
     # Send your moves back to the game environment, ending this turn.
