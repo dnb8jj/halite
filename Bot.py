@@ -66,6 +66,8 @@ turn = 0
 turn_limit = constants.MAX_TURNS
 game_map = game.game_map
 me = game.me
+dart_trig = 0
+dart_id = -1
 hotspot = get_hotspot(game_map)
 hstp_search_cnt = 0
 logging.info("Found initial hotspot, value is " + str(check_area(hotspot)))
