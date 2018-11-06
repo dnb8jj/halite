@@ -61,6 +61,9 @@ game.ready("speegeeBot")
 # Now that your bot is initialized, save a message to yourself in the log file with some important information.
 #   Here, you log here your id, which you can always fetch from the game object by using my_id.
 logging.info("Successfully created bot! My Player ID is {}.".format(game.my_id))
+
+
+
 return_amount = 850
 turn = 0
 turn_limit = constants.MAX_TURNS
@@ -70,7 +73,7 @@ dart_trig = 0
 dart_id = -1
 hotspot = get_hotspot(game_map)
 hstp_search_cnt = 0
-logging.info("Found initial hotspot, value is " + str(check_area(hotspot)))
+logging.info("Found initial hotspot, at " + format(hotspot) + " + value is " + str(check_area(hotspot)))
 
 while True:
     # Get the latest game state.
@@ -92,14 +95,13 @@ while True:
     command_queue = []
 
     # logging.info("Movement Phase: turn " + str(turn) + " : " + str(turn_limit) + ", the hotspot is "+format(hotspot))
-
     # command ships
     for ship in me.get_ships():
         move_dir = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
         stay = 0
         dropoff = 0
         # determine optimal direction
-        if ship.id % 3 == 1:
+        if ship.id % 3 == 10:
             dropoff = 0
             if len(game.me.get_dropoffs()) < 1 and game_map.calculate_distance(ship.position,
                    game.me.shipyard.position) > 13 and game_map.calculate_distance(
@@ -118,6 +120,7 @@ while True:
                 stay = 1
             elif ship.position != hotspot:
                 move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
+                logging.info("--- Seeker pursuing hotspot ---")
             else:
                 stay = 1
         else:
@@ -125,6 +128,8 @@ while True:
                 move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
             elif game_map[ship.position].halite_amount > 36:
                 stay = 1
+            elif check_area(ship.position) < 400 and ship.position != hotspot:
+                move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
             else:
                 best = 0
                 if check_area(ship.position) > 160:
@@ -134,6 +139,8 @@ while True:
                             move_dir = d
                 elif ship.position != game.me.shipyard.position:
                     move_dir = Direction.invert(game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0])
+                else:
+                    move_dir = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
 
         # add command to queue
         rand = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
