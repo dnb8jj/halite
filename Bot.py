@@ -95,8 +95,21 @@ while True:
     for ship in me.get_ships():
         move_dir = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
         stay = 0
+        dropoff = 0
         # determine optimal direction
         if ship.id % 3 == 1:
+            dropoff = 0
+            if len(game.me.get_dropoffs()) < 1 and game_map.calculate_distance(ship.position,
+                   game.me.shipyard.position) > 13 and game_map.calculate_distance(
+                    hotspot, game.me.shipyard.position) > 13 and game.me.halite_amount > 5000:
+                if dart_trig == 0:
+                    dart_id = ship.id
+                    dart_trig = 1
+                    logging.info("######---- " + str(dart_id) + " is dart ---####### ")
+                elif ship.id == dart_id and ship.position != hotspot:
+                    move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
+                elif ship.id == dart_id and ship.position == hotspot:
+                    dropoff = 1
             if ship.halite_amount > 900:
                 move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
             elif game_map[ship.position].halite_amount > 100:
@@ -105,20 +118,20 @@ while True:
                 move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
             else:
                 stay = 1
-
         else:
             if ship.halite_amount > return_amount:
                 move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
             elif game_map[ship.position].halite_amount > 36:
                 stay = 1
-            elif check_area(ship.position) < 800 and ship.position != hotspot:
-                move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
             else:
                 best = 0
-                for d in Direction.get_all_cardinals():
-                    if best < game_map[ship.position.directional_offset(d)].halite_amount:
-                        best = game_map[ship.position.directional_offset(d)].halite_amount
-                        move_dir = d
+                if check_area(ship.position) > 160:
+                    for d in Direction.get_all_cardinals():
+                        if best < game_map[ship.position.directional_offset(d)].halite_amount:
+                            best = game_map[ship.position.directional_offset(d)].halite_amount
+                            move_dir = d
+                elif ship.position != game.me.shipyard.position:
+                    move_dir = Direction.invert(game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0])
 
         # add command to queue
         rand = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
