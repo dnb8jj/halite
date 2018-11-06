@@ -61,14 +61,19 @@ game.ready("speegeeBot")
 # Now that your bot is initialized, save a message to yourself in the log file with some important information.
 #   Here, you log here your id, which you can always fetch from the game object by using my_id.
 logging.info("Successfully created bot! My Player ID is {}.".format(game.my_id))
+
+
+
 return_amount = 850
 turn = 0
 turn_limit = constants.MAX_TURNS
 game_map = game.game_map
 me = game.me
+dart_trig = 0
+dart_id = -1
 hotspot = get_hotspot(game_map)
 hstp_search_cnt = 0
-logging.info("Found initial hotspot, value is " + str(check_area(hotspot)))
+logging.info("Found initial hotspot, at " + format(hotspot) + " + value is " + str(check_area(hotspot)))
 
 while True:
     # Get the latest game state.
@@ -89,25 +94,56 @@ while True:
     # A command queue holds all the commands you will run this turn.
     command_queue = []
 
-    # logging.info("Movement Phase: turn " + str(turn) + " : " + str(turn_limit) + ", the hotspot is " + format(hotspot))
-
+    # logging.info("Movement Phase: turn " + str(turn) + " : " + str(turn_limit) + ", the hotspot is "+format(hotspot))
     # command ships
-    for ship in me.get_ships():         
+    for ship in me.get_ships():
         move_dir = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
         stay = 0
-        if ship.halite_amount > return_amount:
-            move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
-        elif game_map[ship.position].halite_amount > 50:
-            stay = 1
-        elif check_area(ship.position) < 1200 and ship.position != hotspot: 
-            move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
+        dropoff = 0
+        # determine optimal direction
+        if ship.id % 3 == 10:
+            dropoff = 0
+            if len(game.me.get_dropoffs()) < 1 and game_map.calculate_distance(ship.position,
+                   game.me.shipyard.position) > 13 and game_map.calculate_distance(
+                    hotspot, game.me.shipyard.position) > 13 and game.me.halite_amount > 5000:
+                if dart_trig == 0:
+                    dart_id = ship.id
+                    dart_trig = 1
+                    logging.info("######---- " + str(dart_id) + " is dart ---####### ")
+                elif ship.id == dart_id and ship.position != hotspot:
+                    move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
+                elif ship.id == dart_id and ship.position == hotspot:
+                    dropoff = 1
+            if ship.halite_amount > 900:
+                move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
+            elif game_map[ship.position].halite_amount > 100:
+                stay = 1
+            elif ship.position != hotspot:
+                move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
+                logging.info("--- Seeker pursuing hotspot ---")
+            else:
+                stay = 1
         else:
-            best = 0
-            for d in Direction.get_all_cardinals():
-                if best < game_map[ship.position.directional_offset(d)].halite_amount:
-                    best = game_map[ship.position.directional_offset(d)].halite_amount
-                    move_dir = d
-        rand = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])    
+            if ship.halite_amount > return_amount:
+                move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
+            elif game_map[ship.position].halite_amount > 36:
+                stay = 1
+            elif check_area(ship.position) < 400 and ship.position != hotspot:
+                move_dir = game_map.get_unsafe_moves(ship.position, hotspot)[0]
+            else:
+                best = 0
+                if check_area(ship.position) > 160:
+                    for d in Direction.get_all_cardinals():
+                        if best < game_map[ship.position.directional_offset(d)].halite_amount:
+                            best = game_map[ship.position.directional_offset(d)].halite_amount
+                            move_dir = d
+                elif ship.position != game.me.shipyard.position:
+                    move_dir = Direction.invert(game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0])
+                else:
+                    move_dir = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
+
+        # add command to queue
+        rand = random.choice([Direction.North, Direction.South, Direction.East, Direction.West])
         if turn_limit - turn < 21 and game.me.shipyard.position != ship.position:
             if len(game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)) == 1:
                 move_dir = game_map.get_unsafe_moves(ship.position, game.me.shipyard.position)[0]
@@ -115,8 +151,9 @@ while True:
                 move_dir = game_map.naive_navigate(ship, game.me.shipyard.position)
             command_queue.append(ship.move(move_dir))
             game_map[ship.position.directional_offset(move_dir)].mark_unsafe(ship)
-            logging.info("ship @ " + format(ship.position) + " running home for end " + format(ship.position.directional_offset(move_dir)))
-        elif stay == 0 and not game_map[ship.position.directional_offset(move_dir)].is_occupied:  
+            logging.info("ship @ " + format(ship.position) + " running home for end " + format(
+                ship.position.directional_offset(move_dir)))
+        elif stay == 0 and not game_map[ship.position.directional_offset(move_dir)].is_occupied:
             command_queue.append(ship.move(move_dir))
             game_map[ship.position.directional_offset(move_dir)].mark_unsafe(ship)
             # logging.info("ship @ " + format(ship.position) + " moving to " + format(ship.position.directional_offset(move_dir)))
